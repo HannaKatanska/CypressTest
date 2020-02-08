@@ -27,7 +27,7 @@ jobs:
      - run:
          command: yarn start
          background: true
-     - run: yarn run e2e:record --key ${CYPRESS_RECORD_KEY}
+     - run: yarn run e2e:record --key ${CYPRESS_REC_KEY}
  
 workflows:
  version: 2
